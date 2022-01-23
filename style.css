@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+.col, .col-1, .col-10, .col-11, .col-12, 
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, 
+.col-8, .col-9, .col-auto, .col-lg, .col-lg-1, 
+.col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, 
+.col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, 
+.col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3,
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+.col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, 
+.col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, 
+.col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, 
+.col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, 
+.col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto 
+{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+
+
+html{
+    font-family:"Roboto","Oswald",sans-serif,serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.mar-auto{
+    margin: auto;
+    text-align: center;
+}
+
+#brand{
+    padding-left: 0;
+    width: 100%;
+    
+}
+
+#heading{
+    font-size: 18px;
+}
+
+#phoneNumber{
+    font-size: 24px
+}
+
+#officeAddress{
+    line-height: 28px;
+    font-size: 0.8em;
+}
+
+#firsPartOfNumber{
+    color: #23c138;
+}
+
+#master{
+    background-image: url(https://septik27.ru/wp-content/uploads/4/2/1/421a7542fe1451ce7ebeb1fb4bb007de.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#upperMaster{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 14, 66, 0.699);
+
+    color: white;
+}
+
+#honestRepair{
+    font-size: 54px;
+    font-family: oswald;
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-top: 17%;
+    margin-bottom: 0.2em;
+}
+
+#repair{
+    font-size: 20px;
+    font-family: Roboto;
+
+    text-align: center;
+
+    margin-top: 0;
+}
+
+#btnMaster{
+    background-color: rgb(39, 55, 99);
+    font-size: 18px;
+    border-radius: 0px;
+
+    color: white;
+
+    width: 16em;
+    height: 60px;
+    
+}
+.modal{
+    border-radius: 0 !important;
+    border: 0;
+}
+#modalForm{
+    color: black;
+    font-size: 24px;
+
+    padding-bottom: 10px;
+}
+#modalForm input{
+    border-radius: 0;
+    border: none;
+
+    background: #f2f2f2;
+    color: rgb(77, 76, 76);
+
+
+    height: 3em;
+}
+
+#modalForm form{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+#modalForm input:focus{
+    box-shadow: none;
+}
+
+#btnModalClose{
+    width: 100vh;
+    height: 3em;
+
+    border-radius: 0;
+
+    color: white;
+    background-color: #273763;
+}
+.margin{
+    margin-top: 26%;
+}
+.iconic{
+    background-color: #259E47;
+
+    width: 4rem;
+    height: 4rem;
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+.TextRightToIconic{
+    font-weight: 400;
+    font-size: 18px;
+
+    padding-left: 4%;
+    flex-direction: column;
+
+}
+
+.iconForRepair{
+    font-size: 79px;
+    color: #259E47;;
+}
+
+#FutureEquipment{
+    background-image: url(images/частный-мастер-по-реомнту-стиральных-машин.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.insideBox{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #273763;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+.upperFutureEquipment{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    padding: 15% 0;
+}
+.iconInInsideBox{
+    color: #259E47;
+    font-size: 4em;
+}
+
+.textSpan1{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.textSpan2{
+    font-size: 25px;
+    font-weight: 200;
+
+}
+
+#mastersProfesionals{
+    background-color: #f1f1f4;
+    justify-content: center;
+    height: 100%;
+}
+
+.insideBox2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #273763;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+}
+
+.string{
+    display: flex;
+    flex-direction: row;
+}
+
+#imageWithMaster{
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+
+}
+
+.operative{
+    font-size: 20px;
+    color: #000;
+    font-weight: 170;
+
+}
+
+.mastersPro{
+    font-family:oswald,sans-serif;
+    color: #444444;
+    font-size: 30px;
+    font-weight: 600;
+
+    padding-top:10% ;
+}
+
+#left{
+    height: 100%;
+}
+
+#left img{
+    width: 100%;
+    height: 98%;
+
+}
+
+#right{
+    height: 100%;
+}
+
+.insideBox3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #273763;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diagnostic{
+    width: 100%;
+
+    background-color: #f1f1f4;
+    justify-content: center;
+
+}
+
+#underDiagnostic{
+    width: 100%;
+    height: 100%;
+
+    padding-right: 15px;
+}
+
+.blueText{
+    color: #000080;
+    font-family:oswald,sans-serif;
+    text-align: left;
+    font-size:40px;
+
+}
+
+.greyText{
+    color: #555;
+}
+
+.tripToItaly{
+    text-align: left;
+    font-size:22px; 
+    font-weight: 200;
+}
+
+.paragraph{
+    box-sizing: border-box;
+    margin: auto;
+    word-break: break-word
+}
+
+.rakovina{
+    width: 100%;
+}
+
+#backgroundBaby{
+    height: 55vh;
+
+    background-image: url(images/Hills.jpg);
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#upperBackgroundBaby{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    color: white;
+}
+
+#backgroundBaby h1{
+    color: #ffffff;
+    font-size: 42px;
+    font-family: "Oswald", " sans-serif;";
+    text-align: left;
+
+    padding-top: 15%;
+    
+}
+
+#backgroundBaby p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: left;
+
+    padding-top: 3% 0;
+}
+
+.borderBuy{
+    width: 20%;
+    
+    padding-top: 6%;
+
+    border-bottom: 3px solid white;
+}
+
+.cardForm{
+    box-shadow: 6px 3px 7px rgba(0, 0, 0, 0.4);
+    background-color: white;
+
+    border-radius: 10px;
+
+    margin: 15% 2% 15% 25%;
+}
+
+#formForOrder{
+    color: black;
+    font-size: 1em;
+
+
+    padding-bottom: 10px;
+}
+
+#formForOrder form{
+    padding: 1.5em;
+}
+
+#formForOrder label{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 10px ;
+    
+    display: inline-block;
+}
+
+#formForOrder input{
+    border-radius: 0;
+    border: 0;
+    border-bottom: solid rgb(187, 186, 186) 1px;
+
+    color: rgb(77, 76, 76);
+    height: 2em;
+    margin-bottom: 1em;
+
+    box-shadow: none !important;
+}
+
+#application{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0.3em 0;
+}
+
+.card{
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.075);
+    border: none;
+    height: 300px;
+
+    margin-bottom: 5vh;
+
+    border-bottom: #344D92 solid 0.4em;
+}
+
+.mg-auto{
+    margin: auto;
+}
+
+
+.iconic2{
+    color: #259E47;
+    font-size: 3.5em;
+}
+
+.backgroundBaby{
+    background-image: url('images/310369.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.upperBackgroundBaby{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 14, 66, 0.699);
+
+    color: white;
+}
+
+
+.after-slide {
+    margin-top:3px;
+    padding-top:3px;
+    border-top:1px solid #ccc;
+    white-space:nowrap;
+}
+
+.after-slide .img {
+    border: 1px solid #ccc;
+    width:139px;
+    height:69px;
+    background-size: cover !important;
+    display:inline-block;
+    opacity: 0.7;
+}
+
+.after-slide .img {
+    margin-left:1px;
+}
+
+.after-slide .img.active {opacity: 1;}
+
+
+.padFooterTop{
+    padding-top: 4%;
+}
+
+.brand1{
+    padding-left: 0;
+    width: 100%;  
+}
+.padFooterTop p{
+    margin: 0 0 7px 0.3em;
+}
+.padFooterTop a{
+    color: white;
+}
+.padFooterTop h5{
+    margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 700px) {
+    .textSpan1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+    .textSpan1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    .connect3 h1 {
+        font-size: 2.8em ;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .connect3 h1 {
+        font-size: 1em;
+    }
+}
